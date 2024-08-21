@@ -38,7 +38,7 @@ let newItem = 89;
 updateItem(array, oldItem, newItem)
 
 
-
+// Delete Item using bineary searching
 function deleteItem(array, item) {
     // Find the index of the item using binary search
     const index = binarySearching(array, item);
